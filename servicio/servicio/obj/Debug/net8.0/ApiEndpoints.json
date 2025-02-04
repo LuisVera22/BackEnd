@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "GetAllBanks",
+    "RelativePath": "api/Bank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "AddBank",
+    "RelativePath": "api/Bank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankDTO",
+        "Type": "servicio.Models.ModelsDTO.BankDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
