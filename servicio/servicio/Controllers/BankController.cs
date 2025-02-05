@@ -19,7 +19,7 @@ namespace servicio.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllBanks() 
+        public IActionResult GetAllBanks()
         {
             var allBanks = myAppContext.Banks.ToList();
             return Ok(allBanks);
@@ -43,6 +43,122 @@ namespace servicio.Controllers
                     transaction.Commit();
 
                     return Ok(bank);
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    return BadRequest($"Ocurrió un error: {ex.Message}");
+                }
+            }
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult EditBank(int id, [FromBody]BankDTO bankDTO)
+        {
+            using (var transaction = myAppContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    var bank = myAppContext.Banks.FirstOrDefault(b => b.Id == id);
+
+                    if (bank == null)
+                    {
+                        return NotFound($"Banco con ID {id} no encontrado");
+                    }
+
+                    bank.BankName = bankDTO.BankName;
+
+                    myAppContext.SaveChanges();
+                    transaction.Commit();
+
+                    return Ok($"Banco con ID {id} ha sido actualizado.");
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    return BadRequest($"Ocurrió un error: {ex.Message}");
+                }
+            }
+        }
+
+        [HttpDelete("(id)")]
+        public IActionResult DeleteBank(int id) 
+        {
+            using (var transaction = myAppContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    var bank = myAppContext.Banks.FirstOrDefault(b => b.Id == id);
+
+                    if(bank == null)
+                    {
+                        return NotFound($"Banco con ID {id} no encontrado");
+                    }
+
+                    myAppContext.Banks.Remove(bank);
+                    myAppContext.SaveChanges();
+
+                    transaction.Commit();
+
+                    return Ok($"Banco con ID {id} ha sido eliminado");
+                }
+                catch(Exception ex)
+                {
+                    transaction.Rollback();
+                    return BadRequest($"Ocurrió un error: {ex.Message}");
+                }
+            }
+        }
+
+        [HttpPut("desactivate/{id}")]
+        public IActionResult DesactivateBank(int id)
+        {
+            using (var transaction = myAppContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    var bank = myAppContext.Banks.FirstOrDefault(b => b.Id == id);
+
+                    if (bank == null)
+                    {
+                        return NotFound($"Banco con ID {id} no encontrado.");
+                    }
+
+                    bank.Status = false;
+
+                    myAppContext.SaveChanges();
+                    transaction.Commit();
+
+                    return Ok($"Banco con ID {id} ha sido desactivado");
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    return BadRequest($"Ocurrió un error: {ex.Message}");
+                }
+            }
+        }
+
+        [HttpPut("reinstate/{id}")]
+        public IActionResult ReinstateBank(int id)
+        {
+            using (var transaction = myAppContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    var bank = myAppContext.Banks.FirstOrDefault(b => b.Id == id);
+
+                    if (bank == null)
+                    {
+                        return NotFound($"Banco con ID {id} no encontrado.");
+                    }
+
+                    bank.Status = true;
+
+                    myAppContext.SaveChanges();
+                    transaction.Commit();
+
+                    return Ok($"Banco con ID {id} ha sido reingresado (activo nuevamente).");
                 }
                 catch (Exception ex)
                 {

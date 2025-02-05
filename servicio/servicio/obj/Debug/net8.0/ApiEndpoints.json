@@ -24,5 +24,74 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "DeleteBank",
+    "RelativePath": "api/Bank/(id)",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "EditBank",
+    "RelativePath": "api/Bank/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bankDTO",
+        "Type": "servicio.Models.ModelsDTO.BankDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "DesactivateBank",
+    "RelativePath": "api/Bank/desactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "ReinstateBank",
+    "RelativePath": "api/Bank/reinstate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

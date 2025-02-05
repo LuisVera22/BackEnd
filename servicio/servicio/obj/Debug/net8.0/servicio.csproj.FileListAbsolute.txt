@@ -167,3 +167,7 @@ D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\De
 D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net8.0\servicio.pdb
 D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net8.0\servicio.genruntimeconfig.cache
 D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net8.0\ref\servicio.dll
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\bin\Debug\net8.0\servicio.staticwebassets.endpoints.json
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net8.0\staticwebassets\msbuild.servicio.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
