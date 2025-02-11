@@ -10,7 +10,7 @@ namespace ProyectoDSWI.Models
         public string LastName { get; set; }
         public string Direction { get; set; }
         public DateTime Birthdate { get; set; }
-        public int LegalGuardianId { get; set; }
+        public int? LegalGuardianId { get; set; }
 
 
         //Relations

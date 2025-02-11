@@ -155,3 +155,7 @@ D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\De
 D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net9.0\servicio.pdb
 D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net9.0\servicio.genruntimeconfig.cache
 D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\obj\Debug\net9.0\ref\servicio.dll
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desarollo de Servicios Web I\Proyecto\Proyecto React\servicio\servicio\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

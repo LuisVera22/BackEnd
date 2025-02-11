@@ -24,10 +24,69 @@ namespace servicio.Data
         public DbSet<Quota> Quotas { get; set; }
 
         //Migration : "Matricula"
-        //public DbSet<Docente> Docentes { get; set; }
-        //public DbSet<Horario> Horarios { get; set; }
-        //public DbSet<GradoSeccion> GradoSecciones { get; set; }
-        //public DbSet<AsignacionDocente> AsignacionesDocentes { get; set; }
-        //public DbSet<Matricula> Matriculas { get; set; }
+        public DbSet<Docente> Docentes { get; set; }
+        public DbSet<Horario> Horarios { get; set; }
+        public DbSet<GradoSeccion> GradoSecciones { get; set; }
+        public DbSet<AsignacionDocente> AsignacionesDocentes { get; set; }
+        public DbSet<Matricula> Matriculas { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Horario>()
+                .HasOne(h => h.GradoSeccion)
+                .WithMany(g => g.Horarios)
+                .HasForeignKey(h => h.GradoSeccionId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Horario>()
+                .HasOne(h => h.AsignacionDocente)
+                .WithMany(a => a.Horarios)
+                .HasForeignKey(h => h.AsignacionDocenteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Matricula>()
+               .HasOne(m => m.Student)
+               .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+               .HasForeignKey(m => m.StudentId)
+               .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+
+            modelBuilder.Entity<Matricula>()
+                .HasOne(m => m.Docente)
+                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+                .HasForeignKey(m => m.DocenteId)
+                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+
+            modelBuilder.Entity<Matricula>()
+                .HasOne(m => m.Horario)
+                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+                .HasForeignKey(m => m.HorarioId)
+                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+
+            modelBuilder.Entity<Matricula>()
+                .HasOne(m => m.GradoSeccion)
+                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+                .HasForeignKey(m => m.GradoSeccionId)
+                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+
+            modelBuilder.Entity<Matricula>()
+                .HasOne(m => m.LegalGuardian)
+                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+                .HasForeignKey(m => m.LegalGuardianId)
+                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+
+            modelBuilder.Entity<Matricula>()
+                .HasOne(m => m.Payment)
+                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+                .HasForeignKey(m => m.PaymentId)
+                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+
+            modelBuilder.Entity<Matricula>()
+                .HasOne(m => m.PaymentStatus)
+                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
+                .HasForeignKey(m => m.PaymentStatusId)
+                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
+        }
     }
 }
