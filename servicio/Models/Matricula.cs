@@ -8,6 +8,7 @@ namespace servicio.Models
 {
     public class Matricula
     {
+        [Key]
         public int Id { get; set; }
 
         // Relación con Estudiante

@@ -1,9 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace servicio.Models
 {
     public class Horario
     {
+        [Key]
         public int Id { get; set; }
 
         [Required]
@@ -17,10 +19,7 @@ namespace servicio.Models
 
         // Relación con GradoSeccion
         public int GradoSeccionId { get; set; }
+        [ForeignKey("GradoSeccionId")]
         public GradoSeccion GradoSeccion { get; set; }
-
-        // Relación con AsignaciónDocente
-        public int AsignacionDocenteId { get; set; }
-        public AsignacionDocente AsignacionDocente { get; set; }
     }
 }

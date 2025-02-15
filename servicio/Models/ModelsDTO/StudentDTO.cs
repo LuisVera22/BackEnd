@@ -16,6 +16,9 @@ namespace servicio.Models.ModelsDTO
         [Required(ErrorMessage = "La dirección del estudiante es obligatoria.")]
         public string Direction { get; set; }
 
+        [Required(ErrorMessage = "El género del estudiante es obligatoria.")]
+        public string Gender { get; set; }
+
         [Required(ErrorMessage = "La fecha de nacimiento del estudiante es obligatoria.")]
         public DateTime Birthdate { get; set; }
         public int? legalGuardianId { get; set; }

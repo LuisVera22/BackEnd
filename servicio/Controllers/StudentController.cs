@@ -76,6 +76,7 @@ namespace servicio.Controllers
                                 IdentityDocument = request.LegalGuardian.IdentityDocument,
                                 Name = request.LegalGuardian.Name,
                                 LastName = request.LegalGuardian.LastName,
+                                Gender = request.LegalGuardian.Gender,
                                 Birthdate = request.LegalGuardian.Birthdate,
                                 CellphoneNumber = request.LegalGuardian.CellphoneNumber,
                                 Email = request.LegalGuardian.Email,
@@ -95,6 +96,7 @@ namespace servicio.Controllers
                         Name = request.Name,
                         LastName = request.LastName,
                         Direction = request.Direction,
+                        Gender = request.Gender,
                         Birthdate = request.Birthdate,
                         // Si no hay apoderado, legalGuardianId será null
                         LegalGuardianId = legalGuardian?.Id
@@ -165,6 +167,7 @@ namespace servicio.Controllers
             student.Code = request.Code;
             student.Name = request.Name;
             student.LastName = request.LastName;
+            student.Gender = request.Gender;
             student.Direction = request.Direction;
             student.Birthdate = request.Birthdate;
 
@@ -172,6 +175,7 @@ namespace servicio.Controllers
             legalGuardian.IdentityDocument = request.LegalGuardian.IdentityDocument;
             legalGuardian.Name = request.LegalGuardian.Name;
             legalGuardian.LastName = request.LegalGuardian.LastName;
+            legalGuardian.Gender = request.LegalGuardian.Gender;
             legalGuardian.Birthdate = request.LegalGuardian.Birthdate;
             legalGuardian.CellphoneNumber = request.LegalGuardian.CellphoneNumber;
             legalGuardian.Email = request.LegalGuardian.Email;

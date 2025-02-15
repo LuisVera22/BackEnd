@@ -40,11 +40,6 @@ namespace servicio.Data
                 .HasForeignKey(h => h.GradoSeccionId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<Horario>()
-                .HasOne(h => h.AsignacionDocente)
-                .WithMany(a => a.Horarios)
-                .HasForeignKey(h => h.AsignacionDocenteId)
-                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Matricula>()
                .HasOne(m => m.Student)

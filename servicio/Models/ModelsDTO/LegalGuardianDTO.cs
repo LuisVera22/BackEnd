@@ -13,6 +13,9 @@ namespace servicio.Models.ModelsDTO
         [Required(ErrorMessage = "El apellido del apoderado es obligatorio.")]
         public string LastName { get; set; }
 
+        [Required(ErrorMessage = "El género del apoderado es obligatorio.")]
+        public string Gender { get; set; }
+
         [Required(ErrorMessage = "La fecha de nacimiento del apoderado es obligatoria.")]
         public DateTime Birthdate { get; set; }
 

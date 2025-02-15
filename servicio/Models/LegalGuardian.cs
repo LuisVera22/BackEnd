@@ -6,6 +6,7 @@
         public string IdentityDocument { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
+        public string Gender { get; set; }
         public DateTime Birthdate { get; set; }
         public string CellphoneNumber { get; set; }
         public string Email { get; set; }
