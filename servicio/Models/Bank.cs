@@ -8,6 +8,7 @@ namespace ProyectoDSWI.Models
         [Required(ErrorMessage = "El nombre del banco es obligatorio.")]
         public string BankName { get; set; }
         public bool Status { get; set; } = true;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
 
         //Relationship whit the table Payment

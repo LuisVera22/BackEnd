@@ -11,5 +11,6 @@
         public string CellphoneNumber { get; set; }
         public string Email { get; set; }
         public string Direction { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

@@ -17,6 +17,8 @@ namespace servicio.Models
         [ForeignKey("GradoSeccionId")]
         public GradoSeccion GradoSeccion { get; set; }
 
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
         [JsonIgnore]
         public ICollection<Horario> Horarios { get; set; } = new List<Horario>();
     }

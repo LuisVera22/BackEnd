@@ -17,5 +17,7 @@ namespace servicio.Models
         public string FirtName { get; set; }
         [Required]
         public string LastName { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

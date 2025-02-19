@@ -29,6 +29,8 @@ namespace servicio.Models
 
         public bool Estado { get; set; }
 
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
         // Relación con AsignaciónDocente
         [JsonIgnore]
         public ICollection<AsignacionDocente> Asignaciones { get; set; } = new List<AsignacionDocente>();

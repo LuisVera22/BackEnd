@@ -11,6 +11,7 @@ namespace ProyectoDSWI.Models
         public string Gender { get; set; }
         public string Direction { get; set; }
         public DateTime Birthdate { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
         public int? LegalGuardianId { get; set; }
 
 

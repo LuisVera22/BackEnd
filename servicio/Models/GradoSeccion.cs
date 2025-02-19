@@ -11,6 +11,9 @@ namespace servicio.Models
         [Required]
         [MaxLength(50)]
         public string Nombre { get; set; } // Ejemplo: "5to Primaria - A"
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
         [JsonIgnore]
 
         // Relación con Estudiantes

@@ -39,19 +39,18 @@ namespace servicio.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> RegisterStudent([FromBody] StudentDTO request)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // Retorna los errores de validación si hay campos inválidos
+                return BadRequest(ModelState);
             }
 
-            // Iniciar una transacción para asegurar que ambas operaciones sean atómicas.
             using (var transaction = await myAppContext.Database.BeginTransactionAsync())
             {
                 try
                 {
-                    // Verificar si el código del estudiante ya existe
                     var existingStudent = await myAppContext.Students
                                                          .Where(s => s.Code == request.Code)
                                                          .FirstOrDefaultAsync();
@@ -60,7 +59,6 @@ namespace servicio.Controllers
                         return BadRequest("El código del estudiante ya existe.");
                     }
 
-                    // Si se ha enviado un apoderado, verificamos si existe
                     LegalGuardian legalGuardian = null;
                     if (request.LegalGuardian != null)
                     {
@@ -68,7 +66,6 @@ namespace servicio.Controllers
                                                           .Where(g => g.IdentityDocument == request.LegalGuardian.IdentityDocument)
                                                           .FirstOrDefaultAsync();
 
-                        // Si el apoderado no existe, lo creamos
                         if (legalGuardian == null)
                         {
                             legalGuardian = new LegalGuardian
@@ -83,13 +80,11 @@ namespace servicio.Controllers
                                 Direction = request.LegalGuardian.Direction
                             };
 
-                            // Registrar el apoderado en la base de datos
                             myAppContext.LegalGuardians.Add(legalGuardian);
                             await myAppContext.SaveChangesAsync();
                         }
                     }
 
-                    // Crear el nuevo estudiante
                     var student = new Student
                     {
                         Code = request.Code,
@@ -98,31 +93,27 @@ namespace servicio.Controllers
                         Direction = request.Direction,
                         Gender = request.Gender,
                         Birthdate = request.Birthdate,
-                        // Si no hay apoderado, legalGuardianId será null
                         LegalGuardianId = legalGuardian?.Id
                     };
 
-                    // Registrar al estudiante en la base de datos
                     myAppContext.Students.Add(student);
                     await myAppContext.SaveChangesAsync();
 
-                    // Confirmar la transacción
                     await transaction.CommitAsync();
 
                     return CreatedAtAction(nameof(RegisterStudent), new { id = student.Id }, student);
                 }
                 catch (Exception ex)
                 {
-                    // Logueamos el error completo
                     Console.WriteLine(ex.ToString());
-                    // Si ocurre un error, revertimos la transacción
                     await transaction.RollbackAsync();
                     return StatusCode(500, "Error al registrar el estudiante o apoderado: " + ex.Message);
                 }
             }
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> EditStudent(int id, [FromBody] StudentDTO request)
         {
             if (!ModelState.IsValid)
@@ -187,35 +178,27 @@ namespace servicio.Controllers
             return Ok(student); // Retorna el estudiante actualizado
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteStudent(int id)
         {
-            // Buscar el estudiante a eliminar
-            var student = await myAppContext.Students.Include(s => s.LegalGuardian).FirstOrDefaultAsync(s => s.Id == id);
-            if (student == null)
+            try
             {
-                return NotFound("Estudiante no encontrado.");
+                var student = await myAppContext.Students.Include(s => s.LegalGuardian).FirstOrDefaultAsync(s => s.Id == id);
+                if (student == null)
+                {
+                    return NotFound("Estudiante no encontrado.");
+                }
+
+                myAppContext.Students.Remove(student);
+                await myAppContext.SaveChangesAsync();
+
+                return Ok("Estudiante eliminado correctamente.");
             }
-
-            // Buscar el apoderado del estudiante
-            var legalGuardian = student.LegalGuardian;
-
-            // Verificar si el apoderado tiene otros estudiantes a su cargo
-            var otherStudents = await myAppContext.Students
-                                              .Where(s => s.LegalGuardianId == legalGuardian.Id && s.Id != student.Id)
-                                              .ToListAsync();
-
-            // Si el apoderado no tiene más estudiantes a cargo, lo eliminamos
-            if (!otherStudents.Any())
+            catch (Exception ex)
             {
-                myAppContext.LegalGuardians.Remove(legalGuardian);
+                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
             }
-
-            // Eliminar el estudiante
-            myAppContext.Students.Remove(student);
-            await myAppContext.SaveChangesAsync();
-
-            return Ok("Estudiante eliminado correctamente.");
         }
     }
 }
