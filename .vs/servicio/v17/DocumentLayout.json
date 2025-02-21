@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|d:\\desarollo de servicios web i\\proyecto\\proyecto react\\servicio\\servicio\\models\\modelsdto\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|d:\\desarollo de servicios web i\\proyecto\\proyecto react\\servicio\\servicio\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|d:\\desarollo de servicios web i\\proyecto\\proyecto react\\servicio\\servicio\\hubs\\analyticshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\hubs\\analyticshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|d:\\desarollo de servicios web i\\proyecto\\proyecto react\\servicio\\servicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HorarioDTO.cs",
-              "DocumentMoniker": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "ToolTip": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Program.cs",
+              "RelativeDocumentMoniker": "servicio\\Program.cs",
+              "ToolTip": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Program.cs",
+              "RelativeToolTip": "servicio\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T03:40:49.986Z",
+              "WhenOpened": "2025-02-21T02:10:08.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnalyticsHub.cs",
+              "DocumentMoniker": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Hubs\\AnalyticsHub.cs",
+              "RelativeDocumentMoniker": "servicio\\Hubs\\AnalyticsHub.cs",
+              "ToolTip": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Hubs\\AnalyticsHub.cs",
+              "RelativeToolTip": "servicio\\Hubs\\AnalyticsHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T02:05:11.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "servicio\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "D:\\Desarollo de Servicios Web I\\Proyecto\\Proyecto React\\servicio\\servicio\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "servicio\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T01:34:51.254Z",
               "EditorCaption": ""
             }
           ]

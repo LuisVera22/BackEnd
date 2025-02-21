@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using servicio.Data;
+using servicio.Hubs;
 using servicio.Models.ModelsDTO;
 
 namespace servicio.Controllers
@@ -11,10 +13,19 @@ namespace servicio.Controllers
     public class AnalyticsController : ControllerBase
     {
         private readonly MyAppContext myAppContext;
+        private readonly IHubContext<AnalyticsHub> hubContext;
 
-        public AnalyticsController(MyAppContext myAppContext)
+        public AnalyticsController(MyAppContext myAppContext, IHubContext<AnalyticsHub> hubContext)
         {
             this.myAppContext = myAppContext;
+            this.hubContext = hubContext;
+        }
+
+        [HttpGet("sendUpdate")]
+        public async Task<IActionResult> SendUpdate(string message)
+        {
+            await hubContext.Clients.All.SendAsync("ReceiveMessage", message);
+            return Ok("Message sent!");
         }
 
         [HttpGet("genderCounts")]

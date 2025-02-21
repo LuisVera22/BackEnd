@@ -30,6 +30,7 @@ namespace servicio.Controllers
                                                 .Include(s => s.LegalGuardian)
                                                 .ToListAsync();
 
+
             if (allStudents == null || !allStudents.Any())
             {
                 return NotFound("No se encontraron estudiantes.");
@@ -118,19 +119,17 @@ namespace servicio.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // Retorna los errores de validación si hay campos inválidos
+                return BadRequest(ModelState);
             }
 
-            // Buscar al estudiante en la base de datos
             var student = await myAppContext.Students.Include(s => s.LegalGuardian).FirstOrDefaultAsync(s => s.Id == id);
             if (student == null)
             {
                 return NotFound("Estudiante no encontrado.");
             }
 
-            // Verificar si el código del estudiante ya existe (en caso de modificación)
             var existingStudent = await myAppContext.Students
-                                                 .Where(s => s.Code == request.Code && s.Id != id) // Asegurarse de que no se está editando el mismo estudiante
+                                                 .Where(s => s.Code == request.Code && s.Id != id)
                                                  .FirstOrDefaultAsync();
             if (existingStudent != null)
             {
@@ -198,6 +197,53 @@ namespace servicio.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+            }
+        }
+
+
+        [HttpPut("AssignLegalGuardianToStudent")]
+        [Authorize]
+        public async Task<IActionResult> AssignLegalGuardianToStudent([FromBody] AssingLegalGuardianDTO request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            using (var transaction = await myAppContext.Database.BeginTransactionAsync())
+            {
+                try
+                {
+                    var student = await myAppContext.Students
+                                                     .Where(s => s.Id == request.StudentId) 
+                                                     .FirstOrDefaultAsync();
+                    if (student == null)
+                    {
+                        return NotFound("Estudiante no encontrado.");
+                    }
+
+                    var legalGuardian = await myAppContext.LegalGuardians
+                                                           .Where(g => g.Id == request.LegalGuardianId)  
+                                                           .FirstOrDefaultAsync();
+
+                    if (legalGuardian == null)
+                    {
+                        return NotFound("Apoderado no encontrado.");
+                    }
+
+                    // Asignamos el apoderado al estudiante
+                    student.LegalGuardianId = legalGuardian.Id;
+                    await myAppContext.SaveChangesAsync();
+
+                    await transaction.CommitAsync();
+
+                    return Ok("Apoderado asignado correctamente al estudiante.");
+                }
+                catch (Exception ex)
+                {
+                    await transaction.RollbackAsync();
+                    return StatusCode(500, "Error al asignar el apoderado: " + ex.Message);
+                }
             }
         }
     }
