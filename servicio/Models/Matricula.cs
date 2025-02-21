@@ -32,20 +32,11 @@ namespace servicio.Models
         public GradoSeccion GradoSeccion { get; set; }
 
         // Relación con Apoderado (LegalGuardian)
-        public int LegalGuardianId { get; set; }
+        public int? LegalGuardianId { get; set; }
         [ForeignKey("LegalGuardianId")]
         public LegalGuardian LegalGuardian { get; set; }
 
-        // Relación con Pago
-        public int PaymentId { get; set; }
-        [ForeignKey("PaymentId")]
-        public Payment Payment { get; set; }
-
-        // Relación con Estado de Pago
-        public int PaymentStatusId { get; set; }
-        [ForeignKey("PaymentStatusId")]
-        public PaymentStatus PaymentStatus { get; set; }
-
+        
         // Fecha de la matrícula
         [Required]
         public DateTime FechaMatricula { get; set; } = DateTime.Now;

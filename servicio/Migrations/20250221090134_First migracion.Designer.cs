@@ -12,7 +12,7 @@ using servicio.Data;
 namespace servicio.Migrations
 {
     [DbContext(typeof(MyAppContext))]
-    [Migration("20250220090640_First migracion")]
+    [Migration("20250221090134_First migracion")]
     partial class Firstmigracion
     {
         /// <inheritdoc />
@@ -416,13 +416,7 @@ namespace servicio.Migrations
                     b.Property<int>("HorarioId")
                         .HasColumnType("int");
 
-                    b.Property<int>("LegalGuardianId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PaymentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PaymentStatusId")
+                    b.Property<int?>("LegalGuardianId")
                         .HasColumnType("int");
 
                     b.Property<int>("StudentId")
@@ -437,10 +431,6 @@ namespace servicio.Migrations
                     b.HasIndex("HorarioId");
 
                     b.HasIndex("LegalGuardianId");
-
-                    b.HasIndex("PaymentId");
-
-                    b.HasIndex("PaymentStatusId");
 
                     b.HasIndex("StudentId");
 
@@ -602,20 +592,7 @@ namespace servicio.Migrations
                     b.HasOne("ProyectoDSWI.Models.LegalGuardian", "LegalGuardian")
                         .WithMany()
                         .HasForeignKey("LegalGuardianId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ProyectoDSWI.Models.Payment", "Payment")
-                        .WithMany()
-                        .HasForeignKey("PaymentId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ProyectoDSWI.Models.PaymentStatus", "PaymentStatus")
-                        .WithMany()
-                        .HasForeignKey("PaymentStatusId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("ProyectoDSWI.Models.Student", "Student")
                         .WithMany()
@@ -630,10 +607,6 @@ namespace servicio.Migrations
                     b.Navigation("Horario");
 
                     b.Navigation("LegalGuardian");
-
-                    b.Navigation("Payment");
-
-                    b.Navigation("PaymentStatus");
 
                     b.Navigation("Student");
                 });

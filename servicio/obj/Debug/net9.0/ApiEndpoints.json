@@ -572,6 +572,117 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "GetAllMatriculas",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "AddMatricula",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matriculaDTO",
+        "Type": "servicio.Models.ModelsDTO.MatriculaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "GetMatriculaById",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "EditMatricula",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "matriculaDTO",
+        "Type": "servicio.Models.ModelsDTO.MatriculaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "DeleteMatricula",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "DesactivateMatricula",
+    "RelativePath": "api/Matricula/desactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "ReinstateMatricula",
+    "RelativePath": "api/Matricula/reinstate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "servicio.Controllers.PaymentController",
     "Method": "GetAllPayments",
     "RelativePath": "api/Payment",

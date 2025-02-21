@@ -4844,11 +4844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\servicio.csproj",
+      "projectUniqueName": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\servicio.csproj",
       "projectName": "servicio",
-      "projectPath": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\servicio.csproj",
+      "projectPath": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\servicio.csproj",
       "packagesPath": "C:\\Users\\jerso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\obj\\",
+      "outputPath": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

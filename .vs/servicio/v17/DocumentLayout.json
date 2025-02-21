@@ -1,82 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\",
+  "WorkspaceRootPath": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\modelsdto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\legalguardiandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\legalguardiandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\asignaciondocentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\asignaciondocentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_gjjzm4fwaaajpkz.jfif||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_gjjzm4fwaaajpkz.jfif||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\modelsdto\\horarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\horarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\gradoseccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\gradoseccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\modelsdto\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\modelsdto\\asignaciondocentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\asignaciondocentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\statisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\asignaciondocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\asignaciondocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\models\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\matriculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Migrations\\20250221090134_First migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:servicio\\Migrations\\20250221090134_First migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\legalguardiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\gradoseccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\gradoseccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Migrations\\20250221073251_First migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:servicio\\Migrations\\20250221073251_First migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\legalguardiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\legalguardiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\legalguardian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\legalguardian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend-main\\backend-main\\servicio\\migrations\\20250220090640_first migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\migrations\\20250220090640_first migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\asignaciondocentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\asignaciondocentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_gjjzm4fwaaajpkz.jfif||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_gjjzm4fwaaajpkz.jfif||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\gradoseccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\gradoseccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\horarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\horarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\asignaciondocentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\asignaciondocentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\gradosecciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\gradosecciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\asignaciondocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\asignaciondocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\modelsdto\\assinglegalguardiandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\modelsdto\\assinglegalguardiandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\models\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\models\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|c:\\users\\jerso\\documents\\github\\backend\\servicio\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68B7E49-7B0E-4638-90CC-63DF209DA458}|servicio\\servicio.csproj|solutionrelative:servicio\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,247 +141,432 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
-              "RelativeDocumentMoniker": "servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
-              "RelativeToolTip": "servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAErSURBVDhPY6AI/P//H8oiHzCCiKVLl5JlUnR0NFg/2ABSAcxSFrAJUJC2gDiHzEqAWAwCTFAaDMQEGRjcjBgZ/CwZGYyUGBhUpCBi6BgZoLhAnfcAAyuDIoOksAKDnCgjAzPQomdvGBi42BgYeLkYGFiZGRg\u002BfYcqhgIUA7bsXw0UYWTgYedn0NcwZfBxDGRQFoNKQoEoD5QBBSgG3Lx0m4GZFWibKAfDizcPGI6c387AzSPDICAozyAqwMegLmfAYKEuD1SJ8DlKGHDwGzOwcRsx/PquxSDMYcLA/EOOQQmoWVlAkEEQaPLvr48Y9p0\u002BAFUNASgG8IiZALExg7C0KQMznxqDioYtA5\u002BQJoOIiBKDtIQqgyC/NIOkqAJUNRKgJB1QJyUOZcDAAABEbJvpq4K3awAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-02-21T03:23:07.622Z",
+              "DocumentIndex": 0,
+              "Title": "LegalGuardianDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\LegalGuardianDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\LegalGuardianDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\LegalGuardianDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\LegalGuardianDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:09:18.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "MatriculaController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\MatriculaController.cs",
+              "RelativeDocumentMoniker": "servicio\\Controllers\\MatriculaController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\MatriculaController.cs",
+              "RelativeToolTip": "servicio\\Controllers\\MatriculaController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T05:49:02.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Matricula.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\Matricula.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Matricula.cs",
+              "RelativeToolTip": "servicio\\Models\\Matricula.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAnwCIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:55:31.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LegalGuardianController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\LegalGuardianController.cs",
+              "RelativeDocumentMoniker": "servicio\\Controllers\\LegalGuardianController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\LegalGuardianController.cs",
+              "RelativeToolTip": "servicio\\Controllers\\LegalGuardianController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T03:28:21.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Student.cs",
+              "RelativeToolTip": "servicio\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:44:25.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "servicio\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\StudentController.cs",
               "RelativeToolTip": "servicio\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwH0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T08:31:50.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GradoSeccionController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\GradoSeccionController.cs",
-              "RelativeDocumentMoniker": "servicio\\Controllers\\GradoSeccionController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\GradoSeccionController.cs",
-              "RelativeToolTip": "servicio\\Controllers\\GradoSeccionController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:32:51.612Z"
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\appsettings.json",
+              "RelativeDocumentMoniker": "servicio\\appsettings.json",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\appsettings.json",
+              "RelativeToolTip": "servicio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T02:48:25.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Horario.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\Horario.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\Horario.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\Horario.cs",
-              "RelativeToolTip": "servicio\\Models\\Horario.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAywBQAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "MyAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Data\\MyAppContext.cs",
+              "RelativeDocumentMoniker": "servicio\\Data\\MyAppContext.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Data\\MyAppContext.cs",
+              "RelativeToolTip": "servicio\\Data\\MyAppContext.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:06:57.262Z"
+              "WhenOpened": "2025-02-21T06:10:39.312Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "StatisticsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\StatisticsDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\StatisticsDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\StatisticsDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\StatisticsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:57:41.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\StudentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\StudentDTO.cs",
               "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\StudentDTO.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\StudentDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\StudentDTO.cs",
               "RelativeToolTip": "servicio\\Models\\ModelsDTO\\StudentDTO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T08:49:54.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250220090640_First migracion.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090640_First migracion.cs",
-              "RelativeDocumentMoniker": "servicio\\Migrations\\20250220090640_First migracion.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090640_First migracion.cs",
-              "RelativeToolTip": "servicio\\Migrations\\20250220090640_First migracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MatriculaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\MatriculaDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\MatriculaDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\MatriculaDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\MatriculaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T09:06:40.361Z"
+              "WhenOpened": "2025-02-21T05:39:15.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "20250221090134_First migracion.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Migrations\\20250221090134_First migracion.cs",
+              "RelativeDocumentMoniker": "servicio\\Migrations\\20250221090134_First migracion.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Migrations\\20250221090134_First migracion.cs",
+              "RelativeToolTip": "servicio\\Migrations\\20250221090134_First migracion.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:01:34.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GradoSeccion.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\GradoSeccion.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\GradoSeccion.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\GradoSeccion.cs",
+              "RelativeToolTip": "servicio\\Models\\GradoSeccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:57:55.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\PaymentType.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\PaymentType.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\PaymentType.cs",
+              "RelativeToolTip": "servicio\\Models\\PaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:31:56.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\PaymentStatus.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\PaymentStatus.cs",
+              "RelativeToolTip": "servicio\\Models\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:31:58.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Payment.cs",
+              "RelativeToolTip": "servicio\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:32:00.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250221073251_First migracion.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Migrations\\20250221073251_First migracion.cs",
+              "RelativeDocumentMoniker": "servicio\\Migrations\\20250221073251_First migracion.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Migrations\\20250221073251_First migracion.cs",
+              "RelativeToolTip": "servicio\\Migrations\\20250221073251_First migracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:32:51.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LegalGuardian.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\LegalGuardian.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\LegalGuardian.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\LegalGuardian.cs",
+              "RelativeToolTip": "servicio\\Models\\LegalGuardian.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:55:33.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AsignacionDocenteController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\AsignacionDocenteController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\AsignacionDocenteController.cs",
               "RelativeDocumentMoniker": "servicio\\Controllers\\AsignacionDocenteController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\AsignacionDocenteController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\AsignacionDocenteController.cs",
               "RelativeToolTip": "servicio\\Controllers\\AsignacionDocenteController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAowIYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T03:28:19.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
+              "Title": "HorarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T03:40:49.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "HorarioController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\HorarioController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\HorarioController.cs",
               "RelativeDocumentMoniker": "servicio\\Controllers\\HorarioController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\HorarioController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\HorarioController.cs",
               "RelativeToolTip": "servicio\\Controllers\\HorarioController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAswHQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T03:28:22.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
+              "Title": "GradoSeccionController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\GradoSeccionController.cs",
+              "RelativeDocumentMoniker": "servicio\\Controllers\\GradoSeccionController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\GradoSeccionController.cs",
+              "RelativeToolTip": "servicio\\Controllers\\GradoSeccionController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T07:32:51.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AsignacionDocenteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:21:22.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GradoSeccionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\GradoSeccionDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\GradoSeccionDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\GradoSeccionDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\GradoSeccionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:58:00.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
+              "RelativeDocumentMoniker": "servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
+              "RelativeToolTip": "servicio\\imagenes\\b594b419-ef51-4632-836b-5da2e9a9f024_GjJzM4FWAAAjpkz.jfif",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAErSURBVDhPY6AI/P//H8oiHzCCiKVLl5JlUnR0NFg/2ABSAcxSFrAJUJC2gDiHzEqAWAwCTFAaDMQEGRjcjBgZ/CwZGYyUGBhUpCBi6BgZoLhAnfcAAyuDIoOksAKDnCgjAzPQomdvGBi42BgYeLkYGFiZGRg\u002BfYcqhgIUA7bsXw0UYWTgYedn0NcwZfBxDGRQFoNKQoEoD5QBBSgG3Lx0m4GZFWibKAfDizcPGI6c387AzSPDICAozyAqwMegLmfAYKEuD1SJ8DlKGHDwGzOwcRsx/PquxSDMYcLA/EOOQQmoWVlAkEEQaPLvr48Y9p0\u002BAFUNASgG8IiZALExg7C0KQMznxqDioYtA5\u002BQJoOIiBKDtIQqgyC/NIOkqAJUNRKgJB1QJyUOZcDAAABEbJvpq4K3awAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-21T03:23:07.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HorarioResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T07:44:09.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssingLegalGuardianDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\AssingLegalGuardianDTO.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\AssingLegalGuardianDTO.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\ModelsDTO\\AssingLegalGuardianDTO.cs",
+              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\AssingLegalGuardianDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:57:49.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AsignacionDocente.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\AsignacionDocente.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\AsignacionDocente.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\AsignacionDocente.cs",
+              "RelativeToolTip": "servicio\\Models\\AsignacionDocente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:20:52.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Horario.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Horario.cs",
+              "RelativeDocumentMoniker": "servicio\\Models\\Horario.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Models\\Horario.cs",
+              "RelativeToolTip": "servicio\\Models\\Horario.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T06:06:57.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "20250220090418_AddImagenPathToStudent.cs",
               "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs",
-              "RelativeDocumentMoniker": "servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs",
+              "RelativeDocumentMoniker": "..\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs",
               "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs",
-              "RelativeToolTip": "servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\BACKEND-MAIN\\BackEnd-main\\servicio\\Migrations\\20250220090418_AddImagenPathToStudent.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T09:04:18.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Program.cs",
               "RelativeDocumentMoniker": "servicio\\Program.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Program.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Program.cs",
               "RelativeToolTip": "servicio\\Program.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T09:18:58.807Z"
+              "WhenOpened": "2025-02-20T09:18:58.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HorarioResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
-              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\HorarioResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:44:09.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\appsettings.json",
-              "RelativeDocumentMoniker": "servicio\\appsettings.json",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\appsettings.json",
-              "RelativeToolTip": "servicio\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-20T02:48:25.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\Student.cs",
-              "RelativeToolTip": "servicio\\Models\\Student.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T08:44:25.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AsignacionDocenteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
-              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\AsignacionDocenteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T04:21:22.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AsignacionDocente.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\AsignacionDocente.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\AsignacionDocente.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\AsignacionDocente.cs",
-              "RelativeToolTip": "servicio\\Models\\AsignacionDocente.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA2wBUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T04:20:52.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "servicio\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\LoginController.cs",
               "RelativeToolTip": "servicio\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:28:35.136Z"
+              "WhenOpened": "2025-02-20T03:28:35.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LegalGuardianController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\LegalGuardianController.cs",
-              "RelativeDocumentMoniker": "servicio\\Controllers\\LegalGuardianController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\LegalGuardianController.cs",
-              "RelativeToolTip": "servicio\\Controllers\\LegalGuardianController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:28:21.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HorarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "RelativeDocumentMoniker": "servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "RelativeToolTip": "servicio\\Models\\ModelsDTO\\HorarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T03:40:49.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "AnalyticsController.cs",
-              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\AnalyticsController.cs",
               "RelativeDocumentMoniker": "servicio\\Controllers\\AnalyticsController.cs",
-              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BACKEND-MAIN\\BackEnd-main\\servicio\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\jerso\\Documents\\GitHub\\BackEnd\\servicio\\Controllers\\AnalyticsController.cs",
               "RelativeToolTip": "servicio\\Controllers\\AnalyticsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:28:17.46Z"
+              "WhenOpened": "2025-02-20T03:28:17.46Z",
+              "EditorCaption": ""
             }
           ]
         }

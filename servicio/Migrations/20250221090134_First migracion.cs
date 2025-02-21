@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace servicio.Migrations
 {
     /// <inheritdoc />
-    public partial class DB_SCHOOL : Migration
+    public partial class Firstmigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,8 @@ namespace servicio.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     BankName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Status = table.Column<bool>(type: "bit", nullable: false)
+                    Status = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -35,7 +36,8 @@ namespace servicio.Migrations
                     Apellido = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Dni = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Especialidad = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Estado = table.Column<bool>(type: "bit", nullable: false)
+                    Estado = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,7 +50,8 @@ namespace servicio.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                    Nombre = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -68,7 +71,8 @@ namespace servicio.Migrations
                     Birthdate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CellphoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Direction = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Direction = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -112,7 +116,8 @@ namespace servicio.Migrations
                     EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FirtName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -126,7 +131,8 @@ namespace servicio.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     DocenteId = table.Column<int>(type: "int", nullable: false),
-                    GradoSeccionId = table.Column<int>(type: "int", nullable: false)
+                    GradoSeccionId = table.Column<int>(type: "int", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -157,7 +163,9 @@ namespace servicio.Migrations
                     Gender = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Direction = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Birthdate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     LegalGuardianId = table.Column<int>(type: "int", nullable: true),
+                    ImagenPath = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     GradoSeccionId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -257,9 +265,7 @@ namespace servicio.Migrations
                     DocenteId = table.Column<int>(type: "int", nullable: false),
                     HorarioId = table.Column<int>(type: "int", nullable: false),
                     GradoSeccionId = table.Column<int>(type: "int", nullable: false),
-                    LegalGuardianId = table.Column<int>(type: "int", nullable: false),
-                    PaymentId = table.Column<int>(type: "int", nullable: false),
-                    PaymentStatusId = table.Column<int>(type: "int", nullable: false),
+                    LegalGuardianId = table.Column<int>(type: "int", nullable: true),
                     FechaMatricula = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Estado = table.Column<bool>(type: "bit", nullable: false)
                 },
@@ -288,18 +294,6 @@ namespace servicio.Migrations
                         name: "FK_Matriculas_LegalGuardians_LegalGuardianId",
                         column: x => x.LegalGuardianId,
                         principalTable: "LegalGuardians",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Matriculas_PaymentStatus_PaymentStatusId",
-                        column: x => x.PaymentStatusId,
-                        principalTable: "PaymentStatus",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Matriculas_Payments_PaymentId",
-                        column: x => x.PaymentId,
-                        principalTable: "Payments",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
@@ -384,16 +378,6 @@ namespace servicio.Migrations
                 name: "IX_Matriculas_LegalGuardianId",
                 table: "Matriculas",
                 column: "LegalGuardianId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Matriculas_PaymentId",
-                table: "Matriculas",
-                column: "PaymentId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Matriculas_PaymentStatusId",
-                table: "Matriculas",
-                column: "PaymentStatusId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Matriculas_StudentId",

@@ -71,17 +71,6 @@ namespace servicio.Data
                 .HasForeignKey(m => m.LegalGuardianId)
                 .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
 
-            modelBuilder.Entity<Matricula>()
-                .HasOne(m => m.Payment)
-                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
-                .HasForeignKey(m => m.PaymentId)
-                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
-
-            modelBuilder.Entity<Matricula>()
-                .HasOne(m => m.PaymentStatus)
-                .WithMany()  // Relación inversa, puedes agregar la relación inversa si existe
-                .HasForeignKey(m => m.PaymentStatusId)
-                .OnDelete(DeleteBehavior.Restrict);  // Cambiar a Restrict o NoAction
         }
     }
 }
