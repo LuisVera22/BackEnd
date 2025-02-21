@@ -2,40 +2,37 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using servicio.Data;
-using servicio.Hubs;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Configuración de servicios
 builder.Services.AddControllers();
 
-// SignalR
-builder.Services.AddSignalR();
-
-//Validación del Token
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
-{
-    options.RequireHttpsMetadata = false;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters()
+// Configuración de autenticación con JWT
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
     {
-        ValidateIssuer = false,
-        ValidateAudience = false,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidAudience = builder.Configuration["Jwt:Audience"],
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-    };
-});
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+// Swagger y OpenAPI
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configuración de la base de datos
 builder.Services.AddDbContext<MyAppContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"))
 );
@@ -53,7 +50,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar el pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -61,18 +58,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// Usar la política CORS
+// Usar CORS
 app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
+// **Agrega el middleware para archivos estáticos**
+app.UseStaticFiles();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
-// SignalR
-app.MapHub<AnalyticsHub>("/analyticsHub");
 
 app.Run();

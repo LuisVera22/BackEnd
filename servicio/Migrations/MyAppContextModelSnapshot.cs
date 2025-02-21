@@ -247,6 +247,10 @@ namespace servicio.Migrations
                     b.Property<int?>("GradoSeccionId")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImagenPath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

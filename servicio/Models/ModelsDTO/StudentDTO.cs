@@ -23,5 +23,7 @@ namespace servicio.Models.ModelsDTO
         public DateTime Birthdate { get; set; }
         public int? legalGuardianId { get; set; }
         public LegalGuardianDTO? LegalGuardian { get; set; }
+        public IFormFile Imagen { get; set; }
+
     }
 }

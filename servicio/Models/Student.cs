@@ -14,12 +14,12 @@ namespace ProyectoDSWI.Models
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public int? LegalGuardianId { get; set; }
 
+        // Nueva propiedad para la imagen
+        public string ImagenPath { get; set; }
 
-        //Relations
         [ForeignKey("LegalGuardianId")]
         public LegalGuardian LegalGuardian { get; set; }
 
-        //Relationship whit the table Payment and Quota
         public ICollection<Payment> Payments { get; set; }
         public ICollection<Quota> Quotas { get; set; }
     }

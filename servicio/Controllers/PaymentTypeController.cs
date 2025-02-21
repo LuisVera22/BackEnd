@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProyectoDSWI.Models;
 using servicio.Data;
@@ -19,10 +18,9 @@ namespace servicio.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public IActionResult GetAllPaymentTypes()
         {
-            var paymentTypes = myAppContext.PaymentTypes.ToList();
+            var paymentTypes = myAppContext.PaymentTypes.Where(pt => pt.Status).ToList();
             return Ok(paymentTypes);
         }
 
@@ -72,66 +70,6 @@ namespace servicio.Controllers
             paymentType.Status = false; // Eliminación lógica
             myAppContext.SaveChanges();
             return Ok();
-        }
-
-        [HttpPut("desactivate/{id}")]
-        [Authorize(Roles = ("Administrador"))]
-        public IActionResult DesactivatePaymentType(int id)
-        {
-            using (var transaction = myAppContext.Database.BeginTransaction())
-            {
-                try
-                {
-                    var paymentType = myAppContext.PaymentTypes.FirstOrDefault(x => x.Id == id);
-
-                    if (paymentType == null)
-                    {
-                        return NotFound($"Tipo de pago con ID {id} no encontrado.");
-                    }
-
-                    paymentType.Status = false;
-
-                    myAppContext.SaveChanges();
-                    transaction.Commit();
-
-                    return Ok($"Tipo de pago con ID {id} ha sido desactivado");
-                }
-                catch (Exception ex)
-                {
-                    transaction.Rollback();
-                    return BadRequest($"Ocurrió un error: {ex.Message}");
-                }
-            }
-        }
-
-        [HttpPut("reinstate/{id}")]
-        [Authorize(Roles = ("Administrador"))]
-        public IActionResult ReinstateBank(int id)
-        {
-            using (var transaction = myAppContext.Database.BeginTransaction())
-            {
-                try
-                {
-                    var paymentType = myAppContext.PaymentTypes.FirstOrDefault(x => x.Id == id);
-
-                    if (paymentType == null)
-                    {
-                        return NotFound($"Tipo de pago con ID {id} no encontrado.");
-                    }
-
-                    paymentType.Status = true;
-
-                    myAppContext.SaveChanges();
-                    transaction.Commit();
-
-                    return Ok($"Tipo de pago con ID {id} ha sido reingresado (activo nuevamente).");
-                }
-                catch (Exception ex)
-                {
-                    transaction.Rollback();
-                    return BadRequest($"Ocurrió un error: {ex.Message}");
-                }
-            }
         }
     }
 }

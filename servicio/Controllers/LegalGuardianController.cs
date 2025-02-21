@@ -39,14 +39,14 @@ namespace servicio.Controllers
         {
             if (dni == null)
             {
-                return BadRequest("Ingrese un número de Documento de Identidad");
+                return BadRequest("Ingrese un DNI");
             }
 
             var existingLegalGuardian = await myAppContext.LegalGuardians.Where(lg => lg.IdentityDocument == dni).FirstOrDefaultAsync();
 
             if (existingLegalGuardian == null)
             {
-                return NotFound("No se encontró el apoderado con este documento de identidad.");
+                return BadRequest("No hay coincodencias encontradas.");
             }
 
             return Ok(existingLegalGuardian);

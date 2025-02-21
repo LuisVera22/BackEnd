@@ -26,6 +26,23 @@ namespace servicio.Controllers
                 .ToList();
             return Ok(horarios);
         }
+        [HttpGet]
+        [Route("porGradoSeccion/{id}")]
+        public IActionResult GetHorariosPorGradoSeccion(int id)
+        {
+            try
+            {
+                var horarios = _appContext.Horarios
+                    .Include(p => p.GradoSeccion)
+                    .Where(h => h.GradoSeccionId == id)
+                    .ToList();
+                return Ok(horarios);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.ToString()}");
+            }
+        }
         [HttpPost]
         public IActionResult AddHorario([FromBody] HorarioDTO horarioDTO)
         {
@@ -74,7 +91,7 @@ namespace servicio.Controllers
                     }
 
                     horario.HoraInicio = TimeSpan.Parse(horarioDTO.HoraInicio);
-                    horario.HoraFin = TimeSpan.Parse(horarioDTO.HoraInicio);
+                    horario.HoraFin = TimeSpan.Parse(horarioDTO.HoraFin);
                     horario.DiaSemana = horarioDTO.DiaSemana;
                     horario.GradoSeccionId = horarioDTO.GradoSeccionId;
 
